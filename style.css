@@ -1,55 +1,77 @@
 * {
-	font-family: sans-serif;
+	font-family: arial, sans-serif;
 }
-
+body {
+	padding: 0;
+	margin: 0;
+}
 nav {
 	text-align: right;
 	margin-top: 1.5em;
 	margin-right: 1.15em;
 	font-size: .9em;
 }
-
-nav li{
+nav li {
 	display: inline;
 	color: #333;
 	list-style: none;
 	padding-left: .45em;
 	padding-right: .45em;
 }
-
-nav li a {
+#block {
+	opacity: 0.5;
+}
+a {
 	text-decoration: none;
 	color: #333;
 }
-
 div {
 	text-align: center;
 }
-
 #content {
+	height: 5em;
+	max-height: 5em;
 	margin-top: 10%;
 }
-
-#searchBorder {
-	border: #DDD solid thin;
-	margin-left: 45%;
-	margin-right: 45%;
+#googleImage {
+	padding-bottom: 1.75em;
 }
-
 input {
-	border-style: none;
-	margin-left: auto;
-	margin-right: auto;
+	width: 25%;
+	max-width: 30em;
+	height: 1.5em;
+	font-size: 1.25em;
+	padding-left: 0.5em;
+	padding-right: 1em;
 }
-
 button {
 	color: #333;
 	background-color: #EEE;
 	padding: 1em;
 	margin-top: 2em;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
+	margin-right: .25em;
 	border-color: #EEE;
-	border-style: hidden;
+	border-width: thin;
+	border-style: solid;
 	border-radius: 5%;
+	font-weight: bold;
+}
+footer {
+	position: fixed;
+	width: 100%;
+	background-color: #EEE;
+	bottom: 0;
+}
+footer ul li {
+	list-style: none;
+	display: inline;
+	padding-left: .25em;
+	padding-right: .25em;
+}
+#leftFooter {
+	text-align: left;
+}
+#rightFooter {
+	float: right;
+	padding-right: 3em;
 }
