@@ -1,1 +1,1 @@
-remake of the google home page google-home-page
+Remake of the google home page

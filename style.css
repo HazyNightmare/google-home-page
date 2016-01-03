@@ -1,0 +1,55 @@
+* {
+	font-family: sans-serif;
+}
+
+nav {
+	text-align: right;
+	margin-top: 1.5em;
+	margin-right: 1.15em;
+	font-size: .9em;
+}
+
+nav li{
+	display: inline;
+	color: #333;
+	list-style: none;
+	padding-left: .45em;
+	padding-right: .45em;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #333;
+}
+
+div {
+	text-align: center;
+}
+
+#content {
+	margin-top: 10%;
+}
+
+#searchBorder {
+	border: #DDD solid thin;
+	margin-left: 45%;
+	margin-right: 45%;
+}
+
+input {
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	color: #333;
+	background-color: #EEE;
+	padding: 1em;
+	margin-top: 2em;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	border-color: #EEE;
+	border-style: hidden;
+	border-radius: 5%;
+}
